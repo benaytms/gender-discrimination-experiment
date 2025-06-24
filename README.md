@@ -1,2 +1,2 @@
 # gender-discrimination-experiment
-Experiment made inspired by the example seen in OpenIntro Statistics Book
+Experiment made in R inspired by the example seen in OpenIntro Statistics Book

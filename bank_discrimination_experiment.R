@@ -50,23 +50,24 @@ for (i in 1:test_length){
   }
 }
 
-
 ## -----------------------------------------------------------------------------
 draw_plot <- function(data){
-  stripchart(data, method="stack", at=0,
+  stripchart(data, 
+             method="stack",
+             at=0,
              col="black",
              main="Stacked Dot Plot",
-             xlab="Male-Female Promotion Rates")
+             xlab="Male-Female Promotion Rates",
+             ylab="Count"
+  )
 }
 
 
 ## -----------------------------------------------------------------------------
 draw_plot(diffs)
-
-
 ## -----------------------------------------------------------------------------
 p_value <- round(mean(diffs >= obs_diff), digits=3)
-cat("p-value:", p_value)
+cat("p-value:", p_value, "\n")
 if (p_value <= 0.05){
   cat("Null Hypothesis Not Favored (<= 0.05) due to low p-value:", p_value, "\n")
 }else{

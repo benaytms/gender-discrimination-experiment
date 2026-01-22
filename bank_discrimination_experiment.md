@@ -110,11 +110,7 @@ particular case we can technically dismiss negative rates because that
 would imply in a third hypothesis (men being discriminated) which we are
 not taking in consideration for this experiment.
 
-``` r
-draw_plot(diffs)
-```
-
-![](bank_discrimination_experiment_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](plot.png)<!-- -->
 
 So with the chart we can have a better understanding of the difference
 rates.
